@@ -1,37 +1,51 @@
 body {
     background-color: cadetblue;
+    margin: 0;
+    padding: 0;
 }
-h1 {
-    background-color: aqua;
-    padding: 30px;
+nav {
+    background-color: red;
     text-align: center;
 }
+.lista {
+    list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; 
+}
+.lista li {
+    padding: 20px;
+    margin-right: 30px; 
+}
+.lista li:hover {
+    background-color: white;
+  }
 img {
     width: 100%;
     margin: 0 auto;
     display: block;
 }
 h2 {
-    margin-top: 140px;
+  margin-top: 200px;
 }
 .box {
-    width: 50%;
-    float: left;
-    margin-top: 150px;
+  width: 50%;
+  float: left;
+  margin-top: 150px;
 }
 table {
-    border-collapse: collapse;
-    border: 0px;
-    float: right;
-    width: 30%;
+  border-collapse: collapse;
+  border: 0px;
+  float: right;
+  width: 40%;
 }
 figcaption {
-    text-align: center;
-    background-color: red;
+  text-align: center;
+  background-color: red;
 }
 footer {
-    background-color: aqua;
-    color: aqua;
-    margin-top: 860px;
-    padding: 35px;
+  background-color: red;
+  color: aqua;
+  margin-top: 800px;
+  padding: 35px;
 }
